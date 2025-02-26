@@ -1,5 +1,10 @@
 package com.expenseTracker.spendlytic.services;
 
+import com.expenseTracker.spendlytic.dto.responses.ApiResponseDto;
+import com.expenseTracker.spendlytic.exceptions.UserAlreadyExistsException;
+import com.expenseTracker.spendlytic.exceptions.UserNotFoundException;
+import com.expenseTracker.spendlytic.exceptions.UserServiceLogicException;
+import com.expenseTracker.spendlytic.exceptions.UserVerificationFailedException;
 import jakarta.mail.MessagingException;
 import org.springframework.http.ResponseEntity;
 
