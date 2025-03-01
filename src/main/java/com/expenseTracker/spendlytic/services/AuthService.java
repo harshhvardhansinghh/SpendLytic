@@ -1,5 +1,7 @@
 package com.expenseTracker.spendlytic.services;
 
+import com.expenseTracker.spendlytic.dto.requests.ResetPasswordRequestDto;
+import com.expenseTracker.spendlytic.dto.requests.SignUpRequestDto;
 import com.expenseTracker.spendlytic.dto.responses.ApiResponseDto;
 import com.expenseTracker.spendlytic.exceptions.UserAlreadyExistsException;
 import com.expenseTracker.spendlytic.exceptions.UserNotFoundException;
